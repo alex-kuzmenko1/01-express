@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 
-//  Middleware
+//  Middleware settings
 app.use(cors());
 app.use(express.json());
 app.use(pinoHttp());
